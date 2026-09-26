@@ -14,6 +14,7 @@ Everything is run from the scripts under `data/` (construction and evaluation ru
 ## Layout
 
 ```
+You need to unzip the four zip files and put it under data folder first
 data/            construction pipeline, released dataset, model runs  (see data/README.md)
   final/mainlogic.jsonl   the benchmark: 812 rows, 108 six-cell cores, 27 citing papers
   results/                every model run the paper reports, one directory per model and condition
