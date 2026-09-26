@@ -1,0 +1,18 @@
+\begin{tabularx}{\linewidth}{@{}Xr rrrr rrrr@{}}
+\toprule
+Model & Prior & \multicolumn{4}{c}{$P^{-}C^{+}$, reference $\MLC$} & \multicolumn{4}{c}{$P^{-}C^{-}$, reference $\MLS$}\\
+\cmidrule(lr){3-6}\cmidrule(lr){7-10}
+ & says $\MLS$ & native & $\Delta$highl. & $\Delta$oracle & oracle & native & $\Delta$highl. & $\Delta$oracle & oracle\\
+\midrule
+GPT-4.1 & 91.7 & 26.9 & $\mathbf{+12.0}$ & $\mathbf{+13.9}$ & 40.7 & 75.0 & $+0.0$ & $+2.8$ & 77.8\\
+GPT-5.6 Luna & 86.1 & 45.4 & $\mathbf{+10.2}$ & $+5.6$ & 50.9 & 76.9 & $+3.7$ & $\mathbf{+8.3}$ & 85.2\\
+GPT-5.6 Terra & 86.1 & 60.2 & $\mathbf{+10.2}$ & $\mathbf{+7.4}$ & 67.6 & 76.9 & $-3.7$ & $-0.9$ & 75.9\\
+Claude Opus 5 & 83.3 & 72.2 & $\mathbf{+5.6}$ & $+4.6$ & 76.9 & 83.3 & $+3.7$ & $\mathbf{+5.6}$ & 88.9\\
+Claude Fable 5.1 & 81.5 & 73.1 & $+2.8$ & $+4.6$ & 77.8 & 88.9 & $-2.8$ & $+0.9$ & 89.8\\
+GPT-6 Astra & 77.8 & 77.8 & $\mathbf{+7.4}$ & $+0.9$ & 78.7 & 84.3 & $+0.0$ & $+1.9$ & 86.1\\
+Claude Sonnet 5 & 75.0 & 60.2 & $+0.9$ & $+4.6$ & 64.8 & 77.6 & $-4.7$ & $-3.7$ & 73.8\\
+DeepSeek Flash & 59.3 & 68.5 & $-1.9$ & $+0.9$ & 69.4 & 75.9 & $+5.6$ & $+1.9$ & 77.8\\
+Gemini 2.5 Flash & 53.7 & 65.7 & $+2.8$ & $+4.6$ & 70.4 & 75.9 & $-0.9$ & $\mathbf{-13.0}$ & 63.0\\
+Gemini 3.8 Flash & 50.0 & 72.2 & $+0.9$ & $\mathbf{-10.2}$ & 62.0 & 46.3 & $+3.7$ & $\mathbf{-19.4}$ & 26.9\\
+\bottomrule
+\end{tabularx}

@@ -1,0 +1,18 @@
+\begin{tabularx}{\linewidth}{@{}Xr rrr rrr r@{}}
+\toprule
+Model & Acc$_6$ & \multicolumn{3}{c}{Answers} & \multicolumn{3}{c}{Answers when wrong} & Errors\\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+ & & $\MLS$ & $\MLC$ & $\MLU$ & $\MLS$ & $\MLC$ & $\MLU$ & $\rightarrow$\\
+\midrule
+Claude Fable 5.1 & 77.5 & 39.7 & 35.6 & 24.7 & \textbf{42.5} & \textbf{38.4} & 19.2 & S 42\\
+GPT-6 Astra & 75.8 & 37.7 & 36.6 & 25.8 & 37.6 & \textbf{38.9} & 23.6 & C 39\\
+Claude Opus 5 & 72.1 & 42.1 & 38.7 & 19.1 & \textbf{45.9} & \textbf{41.4} & 12.7 & S 46\\
+DeepSeek Flash & 70.8 & 39.5 & 35.2 & 25.3 & \textbf{42.9} & 33.3 & 23.8 & S 43\\
+Gemini 3.8 Flash & 69.4 & 19.4 & 36.1 & 44.4 & 9.1 & 31.8 & \textbf{59.1} & U 59\\
+Claude Sonnet 5 & 67.5 & 42.0 & 35.8 & 22.3 & \textbf{45.7} & \textbf{36.7} & 17.6 & S 46\\
+GPT-5.6 Terra & 65.6 & 41.7 & 36.3 & 22.1 & \textbf{43.9} & \textbf{36.8} & 19.3 & S 44\\
+Gemini 2.5 Flash & 63.7 & 41.0 & 38.7 & 20.2 & \textbf{41.3} & \textbf{40.9} & 17.9 & S 41\\
+GPT-5.6 Luna & 62.0 & 48.3 & 29.3 & 22.4 & \textbf{54.5} & 25.2 & 20.3 & S 54\\
+GPT-4.1 & 53.1 & 57.9 & 25.3 & 16.8 & \textbf{64.5} & 23.4 & 12.2 & S 64\\
+\bottomrule
+\end{tabularx}

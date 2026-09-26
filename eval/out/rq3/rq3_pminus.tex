@@ -1,0 +1,18 @@
+\begin{tabularx}{\linewidth}{@{}Xr rrr rr@{}}
+\toprule
+Model & Prior & \multicolumn{3}{c}{Accuracy on $P^{-}$} & \multicolumn{2}{c}{Gain over native}\\
+\cmidrule(lr){3-5}\cmidrule(lr){6-7}
+ & says $\MLS$ & native & highlighted & oracle & highlighted & oracle\\
+\midrule
+GPT-4.1 & 91.7 & 50.9 & 56.9 & 59.3 & $\mathbf{+6.0}$ & $\mathbf{+8.3}$\\
+GPT-5.6 Luna & 86.1 & 61.1 & 68.1 & 68.1 & $\mathbf{+6.9}$ & $\mathbf{+6.9}$\\
+GPT-5.6 Terra & 86.1 & 68.5 & 71.8 & 71.8 & $+3.2$ & $+3.2$\\
+Claude Opus 5 & 83.3 & 77.8 & 82.4 & 82.9 & $\mathbf{+4.6}$ & $\mathbf{+5.1}$\\
+Claude Fable 5.1 & 81.5 & 81.0 & 81.0 & 83.8 & $+0.0$ & $+2.8$\\
+GPT-6 Astra & 77.8 & 81.0 & 84.7 & 82.4 & $+3.7$ & $+1.4$\\
+Claude Sonnet 5 & 75.0 & 68.8 & 67.0 & 69.3 & $-1.9$ & $+0.5$\\
+DeepSeek Flash & 59.3 & 72.2 & 74.1 & 73.6 & $+1.9$ & $+1.4$\\
+Gemini 2.5 Flash & 53.7 & 70.8 & 71.8 & 66.7 & $+0.9$ & $-4.2$\\
+Gemini 3.8 Flash & 50.0 & 59.3 & 61.6 & 44.4 & $+2.3$ & $\mathbf{-14.8}$\\
+\bottomrule
+\end{tabularx}
